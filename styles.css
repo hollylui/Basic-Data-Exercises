@@ -1,0 +1,52 @@
+* {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* header ------------------------------------ */
+h1 {
+  margin: 20px;
+}
+
+/* table --------------------------------------- */
+
+table {
+  min-width: 700px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px solid black;
+  border-spacing: 5px;
+}
+
+td:nth-child(2) {
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 15px 0;
+}
+
+/* image -------------------------------------- */
+img {
+  width: 150px;
+}
+
+img[alt*="Amazon"] {
+  border-radius: 10px;
+}
+
+img[alt*="Microsfot"] {
+  border: 1px solid rgb(216, 216, 216);
+}
+
+/* links----------------------------------------- */
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
